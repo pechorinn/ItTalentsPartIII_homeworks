@@ -115,7 +115,7 @@ public class Car {
 		Frame(String rama) {
 			this.name = rama;
 			frame.add(this);
-			System.out.println("New frame was made. It took 2 seconds.");
+			System.out.println("New frame was made. It took 5 seconds.");
 		}
 
 		@Override
