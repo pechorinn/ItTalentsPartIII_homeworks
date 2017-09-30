@@ -72,7 +72,6 @@ public class Demo {
 	private static String readTheBook(String filePath) {
 
 		File file = new File(filePath);
-		BufferedReader br = null;
 		StringBuilder sb = new StringBuilder(1569275);
 		try {
 			br = new BufferedReader(new FileReader(file));
